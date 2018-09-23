@@ -7,13 +7,15 @@
         <title>André - CV</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <link rel="stylesheet" href="main.css">
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
             integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
     </head>
 
-    <body>
+    <body class="bg-secondary">
 
         <div class="container">
 
@@ -35,7 +37,7 @@
                 <!--Informações-->
                 <div class="col-12 col-md-12 col-lg-12 mb-3">
 
-                    <div class="card text-left">
+                    <div class="card text-left bg-transparent-70">
                         <div class="card-body">
                             <h4 class="card-title">Informações</h4>
                             <p class="card-text">
@@ -65,7 +67,7 @@
                 <!--Formação-->
                 <div class="col-12 col-md-12 col-lg-12 mb-3">
 
-                    <div class="card text-left">
+                    <div class="card text-left bg-transparent-70">
                         <div class="card-body">
                             <h4 class="card-title">Formação</h4>
                             <p class="card-text">
@@ -81,7 +83,7 @@
                 <!--Experiência-->
                 <div class="col-12 col-md-12 col-lg-12 mb-3">
 
-                    <div class="card text-left">
+                    <div class="card text-left bg-transparent-70">
                         <div class="card-body">
                             <h4 class="card-title">Experiência</h4>
                             <p class="card-text">
@@ -104,7 +106,7 @@
                 <!--Qualificações e Atividades Complementares-->
                 <div class="col-12 col-md-12 col-lg-12 mb-3">
 
-                    <div class="card text-left">
+                    <div class="card text-left bg-transparent-70">
                         <div class="card-body">
                             <h4 class="card-title">Qualificações e atividades complementares</h4>
                             <p class="card-text">
@@ -119,7 +121,7 @@
                 <!--Informações Adicionais-->
                 <div class="col-12 col-md-12 col-lg-12 mb-3">
 
-                    <div class="card text-left">
+                    <div class="card text-left bg-transparent-70">
                         <div class="card-body">
                             <h4 class="card-title">Informações Adicionais</h4>
                             <p class="card-text">
@@ -131,6 +133,76 @@
 
                 </div>
 
+                <!-- Contato e-mail -->
+                <div class="col-12 col-md-12 col-lg-12 mb-3">
+
+                    <div class="card text-left bg-transparent-70">
+
+                        <div class="card-body">
+                            <h4 class="card-title">Contato</h4>
+                        </div>
+
+                        <form method="POST">
+
+                            <div class="row">
+
+                                <div class="col-8 ml-4">
+
+                                    <div class="form-group row">
+                                        <div class="col-3">
+                                            <label for="user-name" class="font-weight-bold text-truncate">Nome</label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <input type="text" class="form-control" name="nomeUsuario" id="user-name"
+                                                aria-describedby="textHelpId" placeholder="Primeiro nome & último nome">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-8 ml-4">
+
+                                    <div class="form-group row">
+                                        <div class="col-3">
+                                            <label for="user-email" class="font-weight-bold text-truncate">E-mail</label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <input type="email" class="form-control" name="emailUsuario" id="user-email"
+                                                aria-describedby="emailHelpId" placeholder="seuemail@algo.coisa">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-8 ml-4">
+
+                                    <div class="form-group row">
+                                        <div class="col-3">
+                                            <label for="menssagem" class="font-weight-bold text-truncate">Menssagem</label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <textarea class="form-control" name="textoMenssagem" id="menssagem" rows="4"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 ml-4 mb-4">
+
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
 
             </div>
             <!-- Content -->
